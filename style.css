@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1368px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+body {
+	display: flex;
+	justify-content: center;
+	background-color: #cccc;
+}
+.texts {
+	width: 70vw;
+	height: 100vh;
+	padding: 50px;
+}
+h1 {
+	color: crimson;
+	text-align: center;
+}
+a {
+	display: inline-block;
+	margin-top: 100px;
+	padding: 30px;
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	background-color: yellow;
+	border-radius: 0 50px;
+	text-align: center;
+}
+a:hover {
+	background-color: yellowgreen;
+	transition: 0.5s ease-in;
+	color: white;
+	border-radius: 50px 0;
+}
